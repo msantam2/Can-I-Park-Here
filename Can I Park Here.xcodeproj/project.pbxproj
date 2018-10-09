@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AD54148216D4F3D008DD1A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD54147216D4F3D008DD1A4 /* AppDelegate.swift */; };
+		1AD5414A216D4F3D008DD1A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD54149216D4F3D008DD1A4 /* ViewController.swift */; };
+		1AD5414D216D4F3D008DD1A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD5414B216D4F3D008DD1A4 /* Main.storyboard */; };
+		1AD5414F216D4F3E008DD1A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD5414E216D4F3E008DD1A4 /* Assets.xcassets */; };
+		1AD54152216D4F3E008DD1A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD54150216D4F3E008DD1A4 /* LaunchScreen.storyboard */; };
+		1AD5415D216D4F3E008DD1A4 /* Can_I_Park_HereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5415C216D4F3E008DD1A4 /* Can_I_Park_HereTests.swift */; };
+		1AD54168216D4F3E008DD1A4 /* Can_I_Park_HereUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD54167216D4F3E008DD1A4 /* Can_I_Park_HereUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AD54159216D4F3E008DD1A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD5413C216D4F3D008DD1A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD54143216D4F3D008DD1A4;
+			remoteInfo = "Can I Park Here";
+		};
+		1AD54164216D4F3E008DD1A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD5413C216D4F3D008DD1A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD54143216D4F3D008DD1A4;
+			remoteInfo = "Can I Park Here";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AD54144216D4F3D008DD1A4 /* Can I Park Here.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Can I Park Here.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD54147216D4F3D008DD1A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AD54149216D4F3D008DD1A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AD5414C216D4F3D008DD1A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AD5414E216D4F3E008DD1A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AD54151216D4F3E008DD1A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AD54153216D4F3E008DD1A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD54158216D4F3E008DD1A4 /* Can I Park HereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Can I Park HereTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD5415C216D4F3E008DD1A4 /* Can_I_Park_HereTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Can_I_Park_HereTests.swift; sourceTree = "<group>"; };
+		1AD5415E216D4F3E008DD1A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD54163216D4F3E008DD1A4 /* Can I Park HereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Can I Park HereUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD54167216D4F3E008DD1A4 /* Can_I_Park_HereUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Can_I_Park_HereUITests.swift; sourceTree = "<group>"; };
+		1AD54169216D4F3E008DD1A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AD54141216D4F3D008DD1A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD54155216D4F3E008DD1A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD54160216D4F3E008DD1A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AD5413B216D4F3D008DD1A4 = {
+			isa = PBXGroup;
+			children = (
+				1AD54146216D4F3D008DD1A4 /* Can I Park Here */,
+				1AD5415B216D4F3E008DD1A4 /* Can I Park HereTests */,
+				1AD54166216D4F3E008DD1A4 /* Can I Park HereUITests */,
+				1AD54145216D4F3D008DD1A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AD54145216D4F3D008DD1A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AD54144216D4F3D008DD1A4 /* Can I Park Here.app */,
+				1AD54158216D4F3E008DD1A4 /* Can I Park HereTests.xctest */,
+				1AD54163216D4F3E008DD1A4 /* Can I Park HereUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AD54146216D4F3D008DD1A4 /* Can I Park Here */ = {
+			isa = PBXGroup;
+			children = (
+				1AD54147216D4F3D008DD1A4 /* AppDelegate.swift */,
+				1AD54149216D4F3D008DD1A4 /* ViewController.swift */,
+				1AD5414B216D4F3D008DD1A4 /* Main.storyboard */,
+				1AD5414E216D4F3E008DD1A4 /* Assets.xcassets */,
+				1AD54150216D4F3E008DD1A4 /* LaunchScreen.storyboard */,
+				1AD54153216D4F3E008DD1A4 /* Info.plist */,
+			);
+			path = "Can I Park Here";
+			sourceTree = "<group>";
+		};
+		1AD5415B216D4F3E008DD1A4 /* Can I Park HereTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AD5415C216D4F3E008DD1A4 /* Can_I_Park_HereTests.swift */,
+				1AD5415E216D4F3E008DD1A4 /* Info.plist */,
+			);
+			path = "Can I Park HereTests";
+			sourceTree = "<group>";
+		};
+		1AD54166216D4F3E008DD1A4 /* Can I Park HereUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AD54167216D4F3E008DD1A4 /* Can_I_Park_HereUITests.swift */,
+				1AD54169216D4F3E008DD1A4 /* Info.plist */,
+			);
+			path = "Can I Park HereUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AD54143216D4F3D008DD1A4 /* Can I Park Here */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD5416C216D4F3E008DD1A4 /* Build configuration list for PBXNativeTarget "Can I Park Here" */;
+			buildPhases = (
+				1AD54140216D4F3D008DD1A4 /* Sources */,
+				1AD54141216D4F3D008DD1A4 /* Frameworks */,
+				1AD54142216D4F3D008DD1A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Can I Park Here";
+			productName = "Can I Park Here";
+			productReference = 1AD54144216D4F3D008DD1A4 /* Can I Park Here.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AD54157216D4F3E008DD1A4 /* Can I Park HereTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD5416F216D4F3E008DD1A4 /* Build configuration list for PBXNativeTarget "Can I Park HereTests" */;
+			buildPhases = (
+				1AD54154216D4F3E008DD1A4 /* Sources */,
+				1AD54155216D4F3E008DD1A4 /* Frameworks */,
+				1AD54156216D4F3E008DD1A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AD5415A216D4F3E008DD1A4 /* PBXTargetDependency */,
+			);
+			name = "Can I Park HereTests";
+			productName = "Can I Park HereTests";
+			productReference = 1AD54158216D4F3E008DD1A4 /* Can I Park HereTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AD54162216D4F3E008DD1A4 /* Can I Park HereUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD54172216D4F3E008DD1A4 /* Build configuration list for PBXNativeTarget "Can I Park HereUITests" */;
+			buildPhases = (
+				1AD5415F216D4F3E008DD1A4 /* Sources */,
+				1AD54160216D4F3E008DD1A4 /* Frameworks */,
+				1AD54161216D4F3E008DD1A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AD54165216D4F3E008DD1A4 /* PBXTargetDependency */,
+			);
+			name = "Can I Park HereUITests";
+			productName = "Can I Park HereUITests";
+			productReference = 1AD54163216D4F3E008DD1A4 /* Can I Park HereUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AD5413C216D4F3D008DD1A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Matthew Santamaria";
+				TargetAttributes = {
+					1AD54143216D4F3D008DD1A4 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					1AD54157216D4F3E008DD1A4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 1AD54143216D4F3D008DD1A4;
+					};
+					1AD54162216D4F3E008DD1A4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 1AD54143216D4F3D008DD1A4;
+					};
+				};
+			};
+			buildConfigurationList = 1AD5413F216D4F3D008DD1A4 /* Build configuration list for PBXProject "Can I Park Here" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AD5413B216D4F3D008DD1A4;
+			productRefGroup = 1AD54145216D4F3D008DD1A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AD54143216D4F3D008DD1A4 /* Can I Park Here */,
+				1AD54157216D4F3E008DD1A4 /* Can I Park HereTests */,
+				1AD54162216D4F3E008DD1A4 /* Can I Park HereUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AD54142216D4F3D008DD1A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD54152216D4F3E008DD1A4 /* LaunchScreen.storyboard in Resources */,
+				1AD5414F216D4F3E008DD1A4 /* Assets.xcassets in Resources */,
+				1AD5414D216D4F3D008DD1A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD54156216D4F3E008DD1A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD54161216D4F3E008DD1A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AD54140216D4F3D008DD1A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD5414A216D4F3D008DD1A4 /* ViewController.swift in Sources */,
+				1AD54148216D4F3D008DD1A4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD54154216D4F3E008DD1A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD5415D216D4F3E008DD1A4 /* Can_I_Park_HereTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD5415F216D4F3E008DD1A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD54168216D4F3E008DD1A4 /* Can_I_Park_HereUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AD5415A216D4F3E008DD1A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AD54143216D4F3D008DD1A4 /* Can I Park Here */;
+			targetProxy = 1AD54159216D4F3E008DD1A4 /* PBXContainerItemProxy */;
+		};
+		1AD54165216D4F3E008DD1A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AD54143216D4F3D008DD1A4 /* Can I Park Here */;
+			targetProxy = 1AD54164216D4F3E008DD1A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AD5414B216D4F3D008DD1A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AD5414C216D4F3D008DD1A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AD54150216D4F3E008DD1A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AD54151216D4F3E008DD1A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AD5416A216D4F3E008DD1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AD5416B216D4F3E008DD1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AD5416D216D4F3E008DD1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 324W24922A;
+				INFOPLIST_FILE = "Can I Park Here/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "santamaria.Can-I-Park-Here";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AD5416E216D4F3E008DD1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 324W24922A;
+				INFOPLIST_FILE = "Can I Park Here/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "santamaria.Can-I-Park-Here";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AD54170216D4F3E008DD1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 324W24922A;
+				INFOPLIST_FILE = "Can I Park HereTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "santamaria.Can-I-Park-HereTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Can I Park Here.app/Can I Park Here";
+			};
+			name = Debug;
+		};
+		1AD54171216D4F3E008DD1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 324W24922A;
+				INFOPLIST_FILE = "Can I Park HereTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "santamaria.Can-I-Park-HereTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Can I Park Here.app/Can I Park Here";
+			};
+			name = Release;
+		};
+		1AD54173216D4F3E008DD1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 324W24922A;
+				INFOPLIST_FILE = "Can I Park HereUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "santamaria.Can-I-Park-HereUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Can I Park Here";
+			};
+			name = Debug;
+		};
+		1AD54174216D4F3E008DD1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 324W24922A;
+				INFOPLIST_FILE = "Can I Park HereUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "santamaria.Can-I-Park-HereUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Can I Park Here";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AD5413F216D4F3D008DD1A4 /* Build configuration list for PBXProject "Can I Park Here" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD5416A216D4F3E008DD1A4 /* Debug */,
+				1AD5416B216D4F3E008DD1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD5416C216D4F3E008DD1A4 /* Build configuration list for PBXNativeTarget "Can I Park Here" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD5416D216D4F3E008DD1A4 /* Debug */,
+				1AD5416E216D4F3E008DD1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD5416F216D4F3E008DD1A4 /* Build configuration list for PBXNativeTarget "Can I Park HereTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD54170216D4F3E008DD1A4 /* Debug */,
+				1AD54171216D4F3E008DD1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD54172216D4F3E008DD1A4 /* Build configuration list for PBXNativeTarget "Can I Park HereUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD54173216D4F3E008DD1A4 /* Debug */,
+				1AD54174216D4F3E008DD1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AD5413C216D4F3D008DD1A4 /* Project object */;
+}
