@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A8E4752216D6BC500D311B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A8E4751216D6BC400D311B1 /* GoogleService-Info.plist */; };
 		1AD54148216D4F3D008DD1A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD54147216D4F3D008DD1A4 /* AppDelegate.swift */; };
 		1AD5414A216D4F3D008DD1A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD54149216D4F3D008DD1A4 /* ViewController.swift */; };
 		1AD5414D216D4F3D008DD1A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD5414B216D4F3D008DD1A4 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		0CAFE4516234D2187689865B /* Pods-Can I Park HereTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Can I Park HereTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Can I Park HereTests/Pods-Can I Park HereTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0FB80232CB37A7D3DCA7EF29 /* Pods-Can I Park HereUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Can I Park HereUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Can I Park HereUITests/Pods-Can I Park HereUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1A8E4751216D6BC400D311B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1AD54144216D4F3D008DD1A4 /* Can I Park Here.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Can I Park Here.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AD54147216D4F3D008DD1A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AD54149216D4F3D008DD1A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		1AD54146216D4F3D008DD1A4 /* Can I Park Here */ = {
 			isa = PBXGroup;
 			children = (
+				1A8E4751216D6BC400D311B1 /* GoogleService-Info.plist */,
 				1AD54147216D4F3D008DD1A4 /* AppDelegate.swift */,
 				1AD54149216D4F3D008DD1A4 /* ViewController.swift */,
 				1AD5414B216D4F3D008DD1A4 /* Main.storyboard */,
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AD54152216D4F3E008DD1A4 /* LaunchScreen.storyboard in Resources */,
+				1A8E4752216D6BC500D311B1 /* GoogleService-Info.plist in Resources */,
 				1AD5414F216D4F3E008DD1A4 /* Assets.xcassets in Resources */,
 				1AD5414D216D4F3D008DD1A4 /* Main.storyboard in Resources */,
 			);
