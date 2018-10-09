@@ -6,6 +6,7 @@ target 'Can I Park Here' do
   use_frameworks!
 
   # Pods for Can I Park Here
+  pod 'Firebase/Core'
 
   target 'Can I Park HereTests' do
     inherit! :search_paths
