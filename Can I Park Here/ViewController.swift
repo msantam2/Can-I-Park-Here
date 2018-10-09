@@ -8,13 +8,27 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    
+    @IBOutlet weak var mainImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        addTapGesture()
     }
-
-
+    
+    func addTapGesture() {
+        let tap = UITapGestureRecognizer(target: self, action: #selector(tapped))
+        mainImageView.addGestureRecognizer(tap)
+    }
+    
+    @objc func tapped(sender: UITapGestureRecognizer) {
+        if UIImagePickerController.isSourceTypeAvailable(.camera) {
+            let imagePicker = UIImagePickerController()
+            imagePicker.delegate = self
+            imagePicker.sourceType = .camera
+            imagePicker.allowsEditing = false
+            self.present(imagePicker, animated: true, completion: nil)
+        }
+    }
 }
-
