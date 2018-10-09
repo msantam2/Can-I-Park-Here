@@ -1,0 +1,6 @@
+framework module Pods_Can_I_Park_HereTests {
+  umbrella header "Pods-Can I Park HereTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

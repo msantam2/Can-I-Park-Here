@@ -14,6 +14,9 @@
 		1AD54152216D4F3E008DD1A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD54150216D4F3E008DD1A4 /* LaunchScreen.storyboard */; };
 		1AD5415D216D4F3E008DD1A4 /* Can_I_Park_HereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5415C216D4F3E008DD1A4 /* Can_I_Park_HereTests.swift */; };
 		1AD54168216D4F3E008DD1A4 /* Can_I_Park_HereUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD54167216D4F3E008DD1A4 /* Can_I_Park_HereUITests.swift */; };
+		1E1EB9F0D8A4A70130EAA00C /* Pods_Can_I_Park_HereUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3885A4FE602F18C9E835CB43 /* Pods_Can_I_Park_HereUITests.framework */; };
+		7005E4421BAD2C74CDA6F163 /* Pods_Can_I_Park_HereTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2102975CC072042F50A9AF9B /* Pods_Can_I_Park_HereTests.framework */; };
+		F2B478B2447CE1D9403B24A1 /* Pods_Can_I_Park_Here.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6C41B8E6BC0ACE045243C0 /* Pods_Can_I_Park_Here.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CAFE4516234D2187689865B /* Pods-Can I Park HereTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Can I Park HereTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Can I Park HereTests/Pods-Can I Park HereTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0FB80232CB37A7D3DCA7EF29 /* Pods-Can I Park HereUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Can I Park HereUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Can I Park HereUITests/Pods-Can I Park HereUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1AD54144216D4F3D008DD1A4 /* Can I Park Here.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Can I Park Here.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AD54147216D4F3D008DD1A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AD54149216D4F3D008DD1A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		1AD54163216D4F3E008DD1A4 /* Can I Park HereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Can I Park HereUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AD54167216D4F3E008DD1A4 /* Can_I_Park_HereUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Can_I_Park_HereUITests.swift; sourceTree = "<group>"; };
 		1AD54169216D4F3E008DD1A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC69EA30A7FD97DDA4F0ABA /* Pods-Can I Park Here.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Can I Park Here.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Can I Park Here/Pods-Can I Park Here.debug.xcconfig"; sourceTree = "<group>"; };
+		2102975CC072042F50A9AF9B /* Pods_Can_I_Park_HereTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Can_I_Park_HereTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3885A4FE602F18C9E835CB43 /* Pods_Can_I_Park_HereUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Can_I_Park_HereUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EFB900BABE64153E898BA94 /* Pods-Can I Park Here.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Can I Park Here.release.xcconfig"; path = "Pods/Target Support Files/Pods-Can I Park Here/Pods-Can I Park Here.release.xcconfig"; sourceTree = "<group>"; };
+		AA0AEEC61AC5CB1766734615 /* Pods-Can I Park HereTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Can I Park HereTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Can I Park HereTests/Pods-Can I Park HereTests.release.xcconfig"; sourceTree = "<group>"; };
+		B22535841096024E99E0D55D /* Pods-Can I Park HereUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Can I Park HereUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Can I Park HereUITests/Pods-Can I Park HereUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB6C41B8E6BC0ACE045243C0 /* Pods_Can_I_Park_Here.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Can_I_Park_Here.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B478B2447CE1D9403B24A1 /* Pods_Can_I_Park_Here.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7005E4421BAD2C74CDA6F163 /* Pods_Can_I_Park_HereTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E1EB9F0D8A4A70130EAA00C /* Pods_Can_I_Park_HereUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				1AD5415B216D4F3E008DD1A4 /* Can I Park HereTests */,
 				1AD54166216D4F3E008DD1A4 /* Can I Park HereUITests */,
 				1AD54145216D4F3D008DD1A4 /* Products */,
+				6A748C13595B4998940B5E35 /* Pods */,
+				B1020B083BBD33AF936C4E73 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = "Can I Park HereUITests";
 			sourceTree = "<group>";
 		};
+		6A748C13595B4998940B5E35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FC69EA30A7FD97DDA4F0ABA /* Pods-Can I Park Here.debug.xcconfig */,
+				6EFB900BABE64153E898BA94 /* Pods-Can I Park Here.release.xcconfig */,
+				0CAFE4516234D2187689865B /* Pods-Can I Park HereTests.debug.xcconfig */,
+				AA0AEEC61AC5CB1766734615 /* Pods-Can I Park HereTests.release.xcconfig */,
+				B22535841096024E99E0D55D /* Pods-Can I Park HereUITests.debug.xcconfig */,
+				0FB80232CB37A7D3DCA7EF29 /* Pods-Can I Park HereUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B1020B083BBD33AF936C4E73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB6C41B8E6BC0ACE045243C0 /* Pods_Can_I_Park_Here.framework */,
+				2102975CC072042F50A9AF9B /* Pods_Can_I_Park_HereTests.framework */,
+				3885A4FE602F18C9E835CB43 /* Pods_Can_I_Park_HereUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AD5416C216D4F3E008DD1A4 /* Build configuration list for PBXNativeTarget "Can I Park Here" */;
 			buildPhases = (
+				7B1F7AE6FF9489CEDF7DC697 /* [CP] Check Pods Manifest.lock */,
 				1AD54140216D4F3D008DD1A4 /* Sources */,
 				1AD54141216D4F3D008DD1A4 /* Frameworks */,
 				1AD54142216D4F3D008DD1A4 /* Resources */,
+				26017ADBACCB8D05AB6F138B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AD5416F216D4F3E008DD1A4 /* Build configuration list for PBXNativeTarget "Can I Park HereTests" */;
 			buildPhases = (
+				C58562428D8A26AECB4AFA6A /* [CP] Check Pods Manifest.lock */,
 				1AD54154216D4F3E008DD1A4 /* Sources */,
 				1AD54155216D4F3E008DD1A4 /* Frameworks */,
 				1AD54156216D4F3E008DD1A4 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AD54172216D4F3E008DD1A4 /* Build configuration list for PBXNativeTarget "Can I Park HereUITests" */;
 			buildPhases = (
+				BEDACE0AB8437240B9E6FECB /* [CP] Check Pods Manifest.lock */,
 				1AD5415F216D4F3E008DD1A4 /* Sources */,
 				1AD54160216D4F3E008DD1A4 /* Frameworks */,
 				1AD54161216D4F3E008DD1A4 /* Resources */,
@@ -250,6 +294,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26017ADBACCB8D05AB6F138B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Can I Park Here/Pods-Can I Park Here-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Can I Park Here/Pods-Can I Park Here-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B1F7AE6FF9489CEDF7DC697 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Can I Park Here-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEDACE0AB8437240B9E6FECB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Can I Park HereUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C58562428D8A26AECB4AFA6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Can I Park HereTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1AD54140216D4F3D008DD1A4 /* Sources */ = {
@@ -430,6 +567,7 @@
 		};
 		1AD5416D216D4F3E008DD1A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC69EA30A7FD97DDA4F0ABA /* Pods-Can I Park Here.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +586,7 @@
 		};
 		1AD5416E216D4F3E008DD1A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EFB900BABE64153E898BA94 /* Pods-Can I Park Here.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +605,7 @@
 		};
 		1AD54170216D4F3E008DD1A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CAFE4516234D2187689865B /* Pods-Can I Park HereTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +627,7 @@
 		};
 		1AD54171216D4F3E008DD1A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA0AEEC61AC5CB1766734615 /* Pods-Can I Park HereTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +649,7 @@
 		};
 		1AD54173216D4F3E008DD1A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B22535841096024E99E0D55D /* Pods-Can I Park HereUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +670,7 @@
 		};
 		1AD54174216D4F3E008DD1A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FB80232CB37A7D3DCA7EF29 /* Pods-Can I Park HereUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
